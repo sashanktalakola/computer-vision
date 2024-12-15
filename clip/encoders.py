@@ -4,7 +4,7 @@ from transformers import ViTConfig, ViTModel
 from torchvision.models import resnet50, ResNet50_Weights
 
 
-class CLIPImageEncoder(nn.Module):
+class CLIPViTEncoder(nn.Module):
     def __init__(
         self,
         image_size=224,
